@@ -1,8 +1,8 @@
-﻿<Application x:Class="DanbooruSearcher.App"
+﻿<Application x:Class="BooruSearcher.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:DanbooruSearcher"
-             StartupUri="Views/MainWindow.xaml">
+             xmlns:local="clr-namespace:BooruSearcher"
+             Startup="AppStartup">
 	<Application.Resources>
 		<ResourceDictionary>
 			<BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />

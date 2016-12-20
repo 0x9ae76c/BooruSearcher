@@ -7,13 +7,15 @@
 					mc:Ignorable="d"
 					xmlns:controls="http://schemes.grabacr.net/winfx/2014/controls"
 					xmlns:chrome="http://schemes.grabacr.net/winfx/2014/chrome"
+					xmlns:viewModels="clr-namespace:BooruSearcher.ViewModels"
 					Title="MainWindow" Height="350" Width="525" 
 					FontFamily="Segoe UI"
 					Background="{DynamicResource ThemeBrushKey}"
 					WindowState="{Binding WindowState}"
 					IsRestoringWindowPlacement="True"
 					UseLayoutRounding="True"
-					TextOptions.TextFormattingMode="Display" >
+					TextOptions.TextFormattingMode="Display" 
+					d:DataContext="{d:DesignInstance {x:Type viewModels:MainWindowViewModel}, IsDesignTimeCreatable=False}">
 
 	<Grid>
 		<Grid.RowDefinitions>
