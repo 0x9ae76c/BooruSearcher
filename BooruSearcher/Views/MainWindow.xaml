@@ -8,6 +8,7 @@
 					xmlns:controls="http://schemes.grabacr.net/winfx/2014/controls"
 					xmlns:chrome="http://schemes.grabacr.net/winfx/2014/chrome"
 					xmlns:viewModels="clr-namespace:BooruSearcher.ViewModels"
+					xmlns:views="clr-namespace:BooruSearcher.Views"
 					Title="MainWindow" Height="350" Width="525" 
 					FontFamily="Segoe UI"
 					Background="{DynamicResource ThemeBrushKey}"
@@ -46,5 +47,8 @@
 				<controls:SystemButtons Grid.Column="2" VerticalAlignment="Top" />
 			</Grid>
 		</Border>
+		
+		<views:MainView Grid.Row="1"/>
+		
 	</Grid>
 </controls:MetroWindow>
